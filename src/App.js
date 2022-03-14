@@ -1,9 +1,9 @@
-import BookingAppointment from "./Booking";
+import Header from "./Header";
 
 function App() {
   return (
     <>
-      <BookingAppointment />
+      <Header />
     </>
   )
 }
