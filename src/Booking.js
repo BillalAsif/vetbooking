@@ -10,15 +10,12 @@ const Book = () => {
                 </div>
                 <div className="border-cyan-500 border-2">
 
-                    <div className="grid grid-rows-2 grid-flow-col gap-4">
-                        <div><p className="inline-block">Name: </p><input className="float-right" type="text" /></div>
-                        <div><p className="inline-block">Date of birth: </p><input className="float-right" type="date" /></div>
-                        <div><p className="inline-block">Appointment Date: </p><input className="float-right" type="date" /></div>
-                        <div><p className="inline-block">Appointment Time: </p><input className="float-right" type="time" /></div>
-                    </div>
-
-                    <div className="block">
-                        <p className="inline-block">Notes: </p><textarea className="inline-block" type="textarea" />
+                    <div className="grid grid-col-2">
+                        <div><p className="inline-block py-5 ml-3">Name: </p><input className="float-right mt-3 mr-3" type="text" /></div>
+                        <div><p className="inline-block py-5 ml-3">Date of birth: </p><input className="float-right mt-3 mr-3" type="date" /></div>
+                        <div><p className="inline-block py-5 ml-3">Appointment Date: </p><input className="float-right mt-3 mr-3" type="date" /></div>
+                        <div><p className="inline-block py-5 ml-3">Appointment Time: </p><input className="float-right mt-3 mr-3" type="time" /></div>
+                        <div><p className="inline-block py-5 ml-3">Notes: </p><textarea className="float-right mt-3 mr-3 mb-3" type="textarea" /></div>
                     </div>
 
                 </div>
