@@ -4,6 +4,17 @@ module.exports = {
   ],
   theme: {
     extend: {},
+
+    container: {
+      padding: {
+        DEFAULT: '3rem',
+        sm: '2rem',
+        md: '3rem',
+        lg: '4rem',
+        xl: '5rem',
+      },
+    },
+
   },
   plugins: [
     require('@tailwindcss/typography'),

@@ -10,3 +10,37 @@
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
+
+@media screen and (min-width: 1024px)  {
+
+  .custom-padding {
+    padding-left: 200px !important;
+    padding-right:200px !important;
+  }
+  
+}
+
+@media screen and (min-width: 1200px)  {
+
+  .custom-padding {
+    padding-left: 300px !important;
+    padding-right:300px !important;
+  }
+  
+}
+
+
+@media screen and (max-width: 648px)  {
+
+  .custom-block {
+    position: relative;
+    display: block;
+    width: 98% !important;
+    float: none;
+  }
+
+  .grid {
+    padding-left: 5px;
+  }
+  
+}
