@@ -6,6 +6,7 @@ const Book = () => {
 
         <>
             <div className="container mx-auto mt-4 custom-padding">
+
                 <div className="bg-blue-500">
                     <h1 className="text-center py-5 text-stone-50 font-medium text-lg">Book an appointment</h1>
                 </div>
@@ -20,7 +21,14 @@ const Book = () => {
                         <div><p className="inline-block py-5 ml-3">Notes: </p><textarea className="float-right mt-3 mr-3 mb-3 w-96 " type="textarea" /></div>
                     </div>
 
+                    <div class="flex spac-x-2 justify-center py-5">
+                        <div>
+                            <button type="button" class="inline-block w-96 px-7 py-3 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Save</button>
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
         </>
 
