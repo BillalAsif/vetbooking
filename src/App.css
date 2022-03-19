@@ -33,14 +33,18 @@
 @media screen and (max-width: 648px)  {
 
   .custom-block {
-    position: relative;
-    display: block;
-    width: 98% !important;
+    width: 96%;
+    margin-left: 8px;
     float: none;
   }
 
-  .grid {
-    padding-left: 5px;
+  .custom-save-btn{
+    width: 200px;
   }
-  
+
+  .custom-search {
+    
+  }
+
+
 }

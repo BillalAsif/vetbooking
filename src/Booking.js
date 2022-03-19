@@ -18,12 +18,12 @@ const Book = () => {
                         <div><p className="inline-block py-5 ml-3">Date of birth: </p><input className="float-right mt-3 mr-3 w-96 custom-block" type="date" /></div>
                         <div><p className="inline-block py-5 ml-3">Appointment Date: </p><input className="float-right mt-3 mr-3 w-96 custom-block" type="date" /></div>
                         <div><p className="inline-block py-5 ml-3">Appointment Time: </p><input className="float-right mt-3 mr-3 w-96 custom-block" type="time" /></div>
-                        <div><p className="inline-block py-5 ml-3">Notes: </p><textarea className="float-right mt-3 mr-3 mb-3 w-96 " type="textarea" /></div>
+                        <div><p className="inline-block py-5 ml-3">Notes: </p><textarea className="float-right mt-3 mr-3 mb-3 w-96 custom-block" type="textarea" /></div>
                     </div>
 
                     <div class="flex spac-x-2 justify-center py-5">
                         <div>
-                            <button type="button" class="inline-block w-96 px-7 py-3 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Save</button>
+                            <button type="button" class="custom-save-btn inline-block w-96 px-7 py-3 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Save</button>
                         </div>
                     </div>
 
