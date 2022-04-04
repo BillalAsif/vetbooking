@@ -1,12 +1,10 @@
 import Header from "./Header";
 import BookAppoitment from "./Booking";
-import Search from "./Search";
+import {Search, callSearch} from "./Search";
 import {useEffect, useState} from 'react';
 
 
 function App() {
-
-  let searchBar = document.getElementById('search-bar');
 
   useEffect( () => {
     
@@ -14,7 +12,7 @@ function App() {
       console.log("change dected")
     }
 
-  }, [searchBar])
+  }, [callSearch])
 
   return (
     <>

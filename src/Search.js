@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css"
 import appointmentList from "./appointments.json"
 
-const Search = () => {
+export function Search() {
 
     return (
 
@@ -51,4 +51,10 @@ const Search = () => {
     )
 }
 
-export default Search;
+export function callSearch(){
+
+    let search = document.getElementById("search-bar");
+    return search;
+
+}
+
