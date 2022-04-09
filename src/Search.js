@@ -38,7 +38,7 @@ export function Search() {
                     {appointmentList.filter((val) => {
                         if (searchTerm === ""){
                             return val;
-                        } else if(val.ownersName.toLowerCase().includes(searchTerm.toLowerCase())){
+                        } else if(val.ownersName.toLowerCase().includes(searchTerm.toLowerCase()) || val.petsName.toLowerCase().includes(searchTerm.toLowerCase()) || val.appointmentDate.toLowerCase().includes(searchTerm.toLowerCase()) || val.appointmentTime.toLowerCase().includes(searchTerm.toLowerCase())){
                             return val;
                         }
                     }).map((appointment,key) => (
