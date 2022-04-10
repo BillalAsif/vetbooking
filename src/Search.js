@@ -37,7 +37,7 @@ export function Search() {
 
                     <table class="border-collapse table-auto w-full text-sm">
                         <thead>
-                            <tr className="tr"><th>Owner</th><th>Pet</th><th>DOB</th><th>Date</th><th>Time</th></tr>
+                            <tr className="tr border-b"><th className="text-sm text-gray-900 font-medium py-4 whitespace-nowrap">Owner</th><th className="text-sm text-gray-900 font-medium py-4 whitespace-nowrap">Pet</th><th className="text-sm text-gray-900 font-medium py-4 whitespace-nowrap">DOB</th><th className="text-sm text-gray-900 font-medium py-4 whitespace-nowrap">Date</th><th className="text-sm text-gray-900 font-medium py-4 whitespace-nowrap">Time</th></tr>
                         </thead>
 
                         <tbody>
