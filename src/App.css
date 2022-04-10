@@ -3,38 +3,42 @@
 @tailwind utilities;
 
 .header {
-  color:black;
+  color: black;
 }
 
-.shadow-yellow{
+.shadow-yellow {
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
 
-.tr{
+.tr {
   text-align: left;
 }
 
-@media screen and (min-width: 1024px)  {
+.w-100 {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
 
   .custom-padding {
     padding-left: 200px !important;
-    padding-right:200px !important;
+    padding-right: 200px !important;
   }
-  
+
 }
 
-@media screen and (min-width: 1200px)  {
+@media screen and (min-width: 1200px) {
 
   .custom-padding {
     padding-left: 300px !important;
-    padding-right:300px !important;
+    padding-right: 300px !important;
   }
-  
+
 }
 
 
-@media screen and (max-width: 648px)  {
+@media screen and (max-width: 648px) {
 
   .custom-block {
     width: 96%;
@@ -42,7 +46,7 @@
     float: none;
   }
 
-  .custom-save-btn{
+  .custom-save-btn {
     width: 200px;
   }
 

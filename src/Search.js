@@ -17,23 +17,15 @@ export function Search() {
 
                 <div className="border-cyan-500 border-2 px-3 py-3">
 
+                    <input id="search-bar" type="search" onChange={event => { setSearchTerm(event.target.value) }} class="w-100 form-control relative flex-auto min-w-0 block px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" />
 
-                    <div class="mb-3 xl:w-96 inline-block custom-search">
-                        <div class="input-group relative flex flex-wrap items-stretch w-full mb-4">
-
-                            <input id="search-bar" type="search" onChange={event => { setSearchTerm(event.target.value) }} class="form-control relative flex-auto min-w-0 block px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" />
-
-                        </div>
-                    </div>
-
-
-                    <select className="inline-block custom-block float-right">
-                        <option selected>Filter By</option>
+                    {/* <select className="inline-block custom-block float-right">
+                        <option selected>Sort By</option>
                         <option value="1">Owner's Name</option>
                         <option value="2">Pet's Name</option>
                         <option value="3">Date of Birth</option>
-                        <option value="3">Appointment Date</option>
-                    </select>
+                        <option value="4">Appointment Date</option>
+                    </select> */}
 
                     <table class="border-collapse table-auto w-full text-sm">
                         <thead>
@@ -49,8 +41,8 @@ export function Search() {
                                 }
                             }).map((appointment, key) => (
                                 <tr key={key}>
-                                    <td>{appointment.ownersName}</td> 
-                                    <td>{appointment.petsName}</td> 
+                                    <td>{appointment.ownersName}</td>
+                                    <td>{appointment.petsName}</td>
                                     <td>{appointment.dob}</td>
                                     <td>{appointment.appointmentDate}</td>
                                     <td>{appointment.appointmentTime}</td>
@@ -58,7 +50,6 @@ export function Search() {
                             ))}
                         </tbody>
                     </table>
-
 
                 </div>
 
